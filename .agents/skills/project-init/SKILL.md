@@ -2,8 +2,9 @@
 name: project-init
 description: >
   按「一页方案、一张 Pass/Fail 验收、一份只讲开工的 AGENTS.md」初始化仓库，写完即停，不写功能代码。
-  用户说「初始化项目」「按这套流程开工」「补方案和验收」「给项目加 AGENTS.md」，或运行 /project-init 时使用。
-  新仓库还没有方案、验收和 AGENTS.md 时也使用。不用于「初始化协议环境」（那是 protocol-init）。
+  用户说「初始化项目」「按这套流程开工」「补方案和验收」「给项目加 AGENTS.md」，或运行 /project-init 时使用；
+  用户要开新项目或开下一期、仓库里还没有对应的方案和验收时也使用。
+  不用于装依赖、跑脚手架、git init 这类「初始化」，也不用于「初始化协议环境」（那是 protocol-init）。
 user-invocable: true
 argument-hint: "[仓库根，默认当前项目]"
 ---
